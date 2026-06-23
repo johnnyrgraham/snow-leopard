@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700);');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap")
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap')    
+
+/*header*/
+.headerbanner
+{
+  background-color: black;
+}
+.headerbanner
+{
+  background-color: black;
+  padding: 10px ;
+  border: 5px solid black ;
+}
+div.wallpaper
+{
+    width: 100%;
+    height: 100vh;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover; 
+    background-size: 100% 100%;
+}
+
+/* ==========logo and menu=====*/
+
+footer .footerlogo    
+    { 
+    float: right;
+    }
+footer .footerlogo img
+{
+    height: 300px;
+    right:60px;
+    position:absolute;
+    overflow: auto;
+}
+
+  
+
+menu .logo
+{
+    float: left;
+    
+}
+menu .logo img
+{
+    height: 120px;
+    left:60px;
+    top:0px;
+    position:absolute;
+}
+.scientific
+{
+    line-height:.1em;
+    font size:5px;
+}
+menu
+{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 100%;
+    background: none;
+    z-index: 5;
+    top:20px;
+    line-height: .2em;
+    display: block;
+    list-style-type: disc;
+  
+    display: block;
+    list-style-type: disc;
+    padding:inline start: 0px;
+    margin:block start: 0px;
+    margin:block end: 0px;
+    margin:inline start: 0px;
+    margin:inline end: 0px;
+} 
+menu ul
+{
+    list-style: none;
+    padding:0;
+}
+/*================ Footer====================== */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+  margin-top: 0px;
+    height:150px
+    }    
+/*=============== Table =========================*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* ===============body=============*/
+
+
+h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size:48px;
+    
+}
+h2
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+h3
+{
+   font-size:  24px;
+   font-family: 'Playfair Display', serif;
+   font-weight: normal;
+    
+}
+p
+{
+    font-size:21px;
+font-family: 'Quicksand', sans-serif;
+    font-weight:lighter;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+    
+/* ==============navbar============*/
+
+
+.navbar-fixed 
+{
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    padding:0px 0px;
+}
+
+nav
+{
+    text-align: center;
+    border: 0;
+    background-color:black;
+    border-radius: 0px;
+    margin-bottom: 0;
+    height: 45px;
+    padding:0px 0px;
+}
+.navbar
+{
+  margin: 0;
+}
+
+.navbar li 
+{
+    display: inline-block;
+    margin-top: 0px;
+    padding:0px;    
+    background-color:black;
+}
+
+.navbar li a 
+{
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    background-color: black;
+    line-height: 45px;
+    color: #ffffff;
+    padding: 10px 45px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav ul li
+{
+    background-color: #ffffff;
+    color:black;
+   
+}
+a.active
+{
+   text-decoration: underline;
+    color: white;
+}
+   
+
+}
+}
+nav a.hover
+{
+    background-color: #31ABBB;
+    color: black;
+}
+@media only screen and (max-width: 1000px)
+{
+    nav ul{
+        height: 230px;
+        flex-direction:column;
+        text-align: center;
+    }
+}
+/* ==============sections==============*/
+#intro
+{
+    
+ background-image: url('introduction.jpg');
+    
+}
+#adaptation
+{
+    
+ background-image: url('physical%20description.jpg');
+    
+}
+#habitat
+{
+    
+ background-image: url('Habitat.jpg');
+    
+}
+#feeding
+{
+    
+ background-image: url('feeding.jpg');
+    
+}
+#behavior
+{
+    
+ background-image: url('Behavior.jpg');
+       
+}
+    
+#repro
+{
+    
+ background-image: url('Reproduction.jpg');
+    
+}
+#reference
+{
+    background-image: url(Reference.jpeg)
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-size: cover; 
+  background-position: center;    
+ 
+}
+
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 2em;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display:block;
+}
+
+.container .btn:hover
+{
+  background-color: grey;
+} 
+#content-wrap {
+  padding-bottom: 0px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rempx; 
+  background-color: black;
+    color: white;
+} 
+.sectionbanner
+{
+  background-color: black;
+}
+.sectionbanner
+{
+  background-color: black;
+  padding: 10px ;
+  border: 0px solid black ;
+}
+/*===========================columns===============*/
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+
+   
+  
+
+
