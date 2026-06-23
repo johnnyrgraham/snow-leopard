@@ -1,6 +1,6 @@
 # Snow Leopard — Educational Website
 
-A multi-page educational website about snow leopards, built in 2020 as part of a Certificate in Information Technology at [Your Institution].
+A multi-page educational website about snow leopards, built in 2020 as part of a Certificate in Information Technology at Otago Polytechnic.
 
 This was one of several projects completed during that certificate, demonstrating the ability to research, design, and build a fully structured website from scratch — without AI coding tools.
 
